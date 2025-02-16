@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['-', 'Nose Exhaling', 'Nose Inhaling']
+
+roboflow:
+  workspace: ml-ai-4gsow
+  project: my-first-project-hvulv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ml-ai-4gsow/my-first-project-hvulv/dataset/1
